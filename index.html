@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <script src="https://kit.fontawesome.com/dc478e4a94.js" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
+    <title>Trabalho Prático</title>
+</head>
+<body>
+    <nav>
+    <div class="logo">
+        <img class="imglogo" src="./IMG/logo.svg" alt="Logo" height="40" width="202">
+        <a href="#" class="menu"><i class="fa-sharp fa-solid fa-bars fa-3x"></i> </a>
+    </div>
+    <div class="navlinks">
+        <ul>
+            <li><a><span class="novo">NOVO</span> Carros Elétricos</a></li>
+                <a href="index.html"><li>Carros novos</li></a> 
+                <a href="index.html"><li>Artigo e Dicas</li></a>
+                <a href="index.html"><li><i class="fa-duotone fa-heart"></i>Favoritos</li></a> 
+                <a href="index.html"><li><i class="fa-duotone fa-user-hair"></i>Login</li></a> 
+                <a href="index.html"><li>Criar Conta</li></a> 
+                <li><button class="buttonnav"><strong> <i class="fa-solid fa-plus"></i> Começar a Vender</strong></button></li>
+        </ul>
+    </div>
+    </nav>
+    <img class="imgback" src="./IMG/back.jpg" alt="">
+    <div class="card">
+            <div class="form">
+            <form action="index.html">
+                <h3 for="">O que Procura?</h3>
+            <div class="row">
+                <label>Segmento</label>
+                <select name="segmento" id="segmento">
+                    <option value="0">Segmento</option>
+                      <option value="1">Cabrio</option>
+                      <option value="2">Carrinha</option>
+                      <option value="3">Citadino</option>
+                      <option value="4">Coupé</option>
+                      <option value="5">Monovolume</option>
+                      <option value="6">Pequeno Citadino</option>
+                </select>
+                <label>Marca</label>
+                <select name="marca" id="marca">
+                    <option value="0">Marca</option>
+                      <option value="0">Marcas mais populares</option>
+                      <option value="1">Abarth</option>
+                      <option value="2">AC</option>
+                      <option value="3">Acura</option>
+                      <option value="4">BMW</option>
+                      <option value="5">Dacia</option>
+                      <option value="6">Devinci</option>
+                      <option value="7">Fiat</option>
+                      <option value="8">Honda</option>
+                      <option value="9">Hyundai</option>
+                      <option value="10">Jaguar</option>
+                      <option value="11">Jeep</option>
+                      <option value="12">Kia</option>
+                      <option value="13">McLaren</option>
+                      <option value="14">Mercedes-Benz</option>
+                      <option value="15">MG</option>
+                      <option value="16">MINI</option>
+                </select>
+            </div>
+            <div class="row">
+                <label>Modelo</label>
+                <select name="modelo" id="modelo">
+                    <option value="0">Modelo</option>
+                      <option value="1">Cabrio</option>
+                      <option value="2">Carrinha</option>
+                      <option value="3">Citadino</option>
+                      <option value="4">Coupé</option>
+                      <option value="5">Monovolume</option>
+                      <option value="6">Pequeno Citadino</option>
+                </select>
+                <label>Sub-Modelo</label>
+                <select name="submodelo" id="submodelo">
+                    <option value="0">Modelo</option>
+                      <option value="1">Cabrio</option>
+                      <option value="1">Carrinha</option>
+                      <option value="1">Citadino</option>
+                      <option value="1">Coupé</option>
+                      <option value="1">Monovolume</option>
+                      <option value="1">Pequeno Citadino</option>
+                </select>
+            </div>
+            <div class="row">
+                <label>Preço</label>
+                <select name="precode" id="precode">
+                    <option value="0">de</option>
+                      <option value="250">250 EUR</option>
+                      <option value="500">500 EUR</option>
+                      <option value="1000">1000 EUR</option>
+                      <option value="2000">2000 EUR</option>
+                      <option value="3000">3000 EUR</option>
+                      <option value="4000">4000 EUR</option>
+                      <option value="5000">5000 EUR</option>
+                      <option value="6000">6000 EUR</option>
+                </select>
+                <select name="precoate" id="precoate">
+                    <option value="0">até</option>
+                      <option value="250">250 EUR</option>
+                      <option value="500">500 EUR</option>
+                      <option value="1000">1000 EUR</option>
+                      <option value="2000">2000 EUR</option>
+                      <option value="3000">3000 EUR</option>
+                      <option value="4000">4000 EUR</option>
+                      <option value="5000">5000 EUR</option>
+                      <option value="6000">6000 EUR</option>
+                </select>
+                <label>Ano</label>
+                <select name="anode" id="anode">
+                    <option value="0">de</option>
+                      <option value="2021">2022</option>
+                      <option value="2021">2021</option>
+                      <option value="2020">2020</option>
+                      <option value="2019">2019</option>
+                      <option value="2018">2018</option>
+                      <option value="2017">2017</option>
+                      <option value="2016">2016</option>
+                      <option value="2015">2015</option>
+                      <option value="2014">2014</option>
+                </select>
+                <select name="anoate" id="anoate">
+                    <option value="0">até</option>
+                      <option value="2021">2022</option>
+                      <option value="2021">2021</option>
+                      <option value="2020">2020</option>
+                      <option value="2019">2019</option>
+                      <option value="2018">2018</option>
+                      <option value="2017">2017</option>
+                      <option value="2016">2016</option>
+                      <option value="2015">2015</option>
+                      <option value="2014">2014</option>
+                </select>
+            </div>
+            <div class="row">
+                <label>Combustível</label>
+                <select name="combustivel" id="combustivel">
+                    <option value ="1">Selecionar</option>
+                                <option value ="2">Diesel</option>
+                                <option value ="3">Elétrico</option>
+                                <option value ="4">Gasolina</option>
+                                <option value ="5">Híbrido</option>
+                                <option value ="6">GLP</option>
+                </select>
+                <label>Quilómetros</label>
+                <select name="quilometrosde" id="quilometrosde">
+                    <option value="0">de</option>
+                      <option value="5000">5000 km</option>
+                      <option value="10000">10000 km</option>
+                      <option value="15000">15000 km</option>
+                      <option value="20000">20000 km</option>
+                      <option value="35000">35000 km</option>
+                      <option value="50000">50000 km</option>
+                      <option value="75000">75000 km</option>
+                      <option value="100000">100000 km</option>
+                      <option value="125000">125000 km</option>
+                </select>
+                <select name="quilometrosate" id="quilometrosate">
+                    <option value="0">até</option>
+                      <option value="5000">5000 km</option>
+                      <option value="10000">10000 km</option>
+                      <option value="15000">15000 km</option>
+                      <option value="20000">20000 km</option>
+                      <option value="35000">35000 km</option>
+                      <option value="50000">50000 km</option>
+                      <option value="75000">75000 km</option>
+                      <option value="100000">100000 km</option>
+                      <option value="125000">125000 km</option>
+                </select>
+            </div>
+            <div class="row btnf">
+            <button class="btn btnform">
+                Ver Anúncios
+            </button>
+            <a href="finaciamento.html"  class="btn btnform">Financiamento</a>
+        </div>
+            </form>
+        </div>
+    </div>
+    <div class="containergall">
+        <div class="gallery gallery0">
+            <img id="imggall" src="./IMG/starlet.jpg">
+            <div class="gall">
+                <h2>Toyota starlet ep91</h2>
+                1998    -   gasolina    -   cc: 1.300    -  cv: 75 
+                <h1>10.000€</h1>
+            </div>
+        </div>
+        <h2 class="destaque">Anúncios em Destaque</h2>
+        <div class="gallery gallery1">
+            <img id="imggall" src="./IMG/starlet.jpg">
+            <div class="gall">
+                <h2>Toyota starlet ep91</h2>
+                1998    -   gasolina    -   cc: 1.300    -  cv: 75 
+                <h1>10.000€</h1>
+            </div>
+        </div>
+        <div class="gallery gallery2">
+            <img id="imggall" src="./IMG/starlet.jpg">
+            <div class="gall">
+                <h2>Toyota starlet ep91</h2>
+                1998    -   gasolina    -   cc: 1.300    -  cv: 75 
+                <h1>10.000€</h1>
+            </div>
+        </div>
+        <div class="gallery gallery3">
+            <img id="imggall" src="./IMG/starlet.jpg">
+            <div class="gall">
+                <h2>Toyota starlet ep91</h2>
+                1998    -   gasolina    -   cc: 1.300    -  cv: 75 
+                <h1>10.000€</h1>
+            </div>
+        </div>
+        <div class="gallery gallery4">
+            <img id="imggall" src="./IMG/starlet.jpg">
+            <div class="gall">
+                <h2>Toyota starlet ep91</h2>
+                1998    -   gasolina    -   cc: 1.300    -  cv: 75 
+                <h1>10.000€</h1>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="minigallery mini1">
+            <img id="imggall" src="./IMG/starlet.jpg">
+            <div class="gall">
+                <h2>Toyota starlet ep91</h2>
+                1998    -   gasolina    -   cc: 1.300    -  cv: 75 <br>
+                <h1>10.000€</h1>
+            </div>
+          </div>
+          <div class="minigallery mini2">
+            <img id="imggall" src="./IMG/starlet.jpg">
+            <div class="gall">
+                <h2>Toyota starlet ep91</h2>
+                1998    -   gasolina    -   cc: 1.300    -  cv: 75 <br>
+                <h1>10.000€</h1>
+            </div>
+          </div>
+          <div class="minigallery mini3">
+            <img id="imggall" src="./IMG/starlet.jpg">
+            <div class="gall">
+                <h2>Toyota starlet ep91</h2>
+                1998    -   gasolina    -   cc: 1.300    -  cv: 75 <br>
+                <h1>10.000€</h1>
+            </div>
+          </div>
+          <div class="minigallery mini4">
+            <img id="imggall" src="./IMG/starlet.jpg">
+            <div class="gall">
+                <h2>Toyota starlet ep91</h2>
+                1998    -   gasolina    -   cc: 1.300    -  cv: 75 <br>
+                <h1>10.000€</h1>
+            </div>
+          </div>
+          <div class="minigallery mini5">
+            <img id="imggall" src="./IMG/starlet.jpg">
+            <div class="gall">
+                <h2>Toyota starlet ep91</h2>
+                1998    -   gasolina    -   cc: 1.300    -  cv: 75 <br>
+                <h1>10.000€</h1>
+            </div>
+          </div>
+          <div class="minigallery mini6">
+            <img id="imggall" src="./IMG/starlet.jpg">
+            <div class="gall">
+                <h2>Toyota starlet ep91</h2>
+                1998    -   gasolina    -   cc: 1.300    -  cv: 75 <br>
+                <h1>10.000€</h1>
+            </div>
+          </div>
+    </div>
+    <div class="prefooter">
+        <img class="first" src="./IMG/blog.png" alt="">
+        <img class="nd" src="./IMG/ensaios.png" alt="">
+        <img class="rd" src="./IMG/carros.png" alt="">
+    </div>
+    <div class="firstfooter">
+        <h4>Marcas de carros mais populares:</h4>
+        <p class="links">
+            <strong><a class="nao" href="">Peugeot</a></strong>
+            <strong><a href="">BMW</a></strong>
+            <strong><a href="">Mercedes</a></strong>
+            <strong><a href="">Renault</a></strong>
+            <strong><a href="">Toyota</a></strong>
+            <strong><a href="">Kia</a></strong>
+            <strong><a href="">Citroen</a></strong>
+            <strong><a href="">Nissan</a></strong>
+            <strong><a href="">Volvo</a></strong>
+            <strong><a href="">Opel</a></strong>
+        </p>
+        <h4>Modelos de carros mais populares:</h4>
+        <p class="links">
+            <strong><a class="nao" href="">Peugeot 308</a></strong>
+            <strong><a href="">Citroen C3</a></strong>
+            <strong><a href="">Nissan Leaf</a></strong>
+            <strong><a href="">BMW 320</a></strong>
+            <strong><a href="">Renault Megane</a></strong>
+            <strong><a href="">Audi A3</a></strong>
+            <strong><a href="">Peugeot 3008</a></strong>
+            <strong><a href="">Nissan Qashqai</a></strong>
+            <strong><a href="">Volkswagen Golf</a></strong>
+        </p>
+        <h4>Marcas de motos mais populares:</h4>
+        <p class="links">
+            <strong><a class="nao" href="">BMW</a></strong>
+            <strong><a href="">Honda</a></strong>
+            <strong><a href="">Harley Davidson</a></strong>
+            <strong><a href="">Yamaha</a></strong>
+            <strong><a href="">Vespa</a></strong>
+            <strong><a href="">Ducati</a></strong>
+            <strong><a href="">Kawasaki</a></strong>
+            <strong><a href="">Triumph</a></strong>
+            <strong><a href="">Suzuki</a></strong>
+        </p>
+        <h4>Outros veículos:</h4>
+        <p class="links">
+            <strong><a class="nao" href="">Autocaravanas</a></strong>
+            <strong><a href="">Comerciais</a></strong>
+            <strong><a href="">Barcos</a></strong>
+            <strong><a href="">Pesados</a></strong>
+        </p>
+        <h4>Carros BMW mais populares:</h4>
+        <p class="links">
+            <strong><a class="nao" href="">BMW 320</a></strong>
+            <strong><a href="">BMW X5</a></strong>
+            <strong><a href="">BMW 520</a></strong>
+            <strong><a href="">BMW i8</a></strong>
+            <strong><a href="">BMW X1</a></strong>
+            <strong><a href="">BMW 420</a></strong>
+            <strong><a href="">BMW 530</a></strong>
+            <strong><a href="">BMW X6</a></strong>
+            <strong><a href="">BMW M3</a></strong>
+            <strong><a href="">BMW X3</a></strong>
+        </p>
+        <h4>Carros Renault mais populares:</h4>
+        <p class="links">
+            <strong><a class="nao" href="">Renault Clio</a></strong>
+            <strong><a href="">Renault Megane</a></strong>
+            <strong><a href="">Renault Captur</a></strong>
+            <strong><a href="">Renault Scenic</a></strong>
+            <strong><a href="">Renault Grand Scenic</a></strong>
+            <strong><a href="">Renault Zoe</a></strong>
+            <strong><a href="">Renault Twingo</a></strong>
+            <strong><a href="">Renault Kadjar</a></strong>
+            <strong><a href="">Renault Megane Coupe</a></strong>
+            <strong><a href="">Renault Megane Sport Tourer</a></strong>
+        </p>
+        <h4>Carros Audi mais populares:</h4>
+        <p class="links">
+            <strong><a class="nao" href="">Audi A3</a></strong>
+            <strong><a href="">Audi A4 Avant</a></strong>
+            <strong><a href="">Audi A4</a></strong>
+            <strong><a href="">Audi A1</a></strong>
+            <strong><a href="">Audi TT</a></strong>
+            <strong><a href="">Audi A5</a></strong>
+            <strong><a href="">Audi Q5</a></strong>
+            <strong><a href="">Audi A3 Sportback</a></strong>
+            <strong><a href="">Audi Q7</a></strong>
+            <strong><a href="">Audi A6</a></strong>
+        </p>
+        <h4>Localizações mais populares:</h4>
+        <p class="links">
+            <strong><a class="nao" href="">Lisboa</a></strong>
+            <strong><a href="">Porto</a></strong>
+            <strong><a href="">Braga</a></strong>
+            <strong><a href="">Aveiro</a></strong>
+            <strong><a href="">Torres Novas</a></strong>
+            <strong><a href="">Portimão</a></strong>
+            <strong><a href="">Vila do Conde</a></strong>
+            <strong><a href="">Leiria</a></strong>
+            <strong><a href="">Salvador</a></strong>
+            <strong><a href="">Fernão Ferro</a></strong>
+        </p>
+        <h4>Distritos:</h4>
+        <p class="links">
+            <strong><a class="nao" href="">Lisboa</a></strong>
+            <strong><a href="">Porto</a></strong>
+            <strong><a href="">Braga</a></strong>
+            <strong><a href="">Aveiro</a></strong>
+            <strong><a href="">Setúbal</a></strong>
+            <strong><a href="">Bragança</a></strong>
+            <strong><a href="">Leiria</a></strong>
+            <strong><a href="">Santarém</a></strong>
+            <strong><a href="">Faro</a></strong>
+            <strong><a href="">Coimbra</a></strong>
+            <strong><a href="">Viseu</a></strong>
+            <strong><a href="">Viana do Castelo</a></strong>
+            <strong><a href="">Vila Real</a></strong>
+            <strong><a href="">Castelo Branco</a></strong>
+            <strong><a href="">Évora</a></strong>
+            <strong><a href="">Beja</a></strong>
+            <strong><a href="">Guarda</a></strong>
+        </p>
+    </div>
+    <div class="row midfooter">
+        <p>É proprietário de um Stand?</p>
+        <button class="buttonfooter">Crie uma conta Profissional</button>
+    </div>
+    <div class="containerfooter">
+        <div class="siganos">
+            <h3>Siga-nos</h3>
+            <span><i class="fa-brands fa-facebook fa-2x"> </i>Facebook</span>
+            <span><i class="fa-brands fa-instagram fa-2x"> </i>Instagram</span>
+            <span><i class="fa-brands fa-youtube fa-2x"> </i>Youtube</span>
+        </div>
+        <div class="sobrenos">
+            <h3>SOBRE NÓS</h3>
+            <span>Ajuda</span>
+            <span>Contacto</span>
+            <span>Política de Cookies</span>
+            <span>Configurações de privacidade</span>
+            <span>Condições de Utilização</span>
+            <span>Política de Privacidade</span>
+            <span>Livro de Reclamações online</span>
+        </div>
+        <div class="servicos">
+            <h3>Serviços e ferramentas</h3>
+            <span>Profissionais no Standvirtual</span>
+            <span>Tarifário Particulares</span>
+            <span>Tarifário Profissionais</span>
+            <span>Artigos e Notícias</span>
+            <span>Test Drives</span>
+            <span>Programa Usados ACAP</span>
+            <span>Quanto vale o seu carro?</span><br><br>
+            <h3>Serviço de apoio ao cliente</h3>
+            <span>Contacte-nos</span>
+        </div>
+        <div class="informacoes">
+            <h3>Informações</h3>
+            <span>Carros usados por Distrito</span>
+            <span>Carros usados mais procurados</span>
+            <span>Carros Novos</span>
+            <span>Carreiras</span>
+        </div>
+    </div>
+        <div class="row aplicacao">
+            <h3>Experimenta a aplicação</h3>
+            <div class="row icons">
+            <a href="#"><i class="fa-brands fa-google-play fa-4x"></i></a>
+            <a href="#"><i class="fa-brands fa-apple fa-4x"></i></a>
+            </div>
+        </div>
+</body>
+</html>
