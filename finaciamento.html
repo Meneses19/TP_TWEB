@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="script.js">
+</head>
+<body>
+    <section>
+        <div class="financiamento">
+          <input type="text" name="marca" placeholder="Marca" id="marca">
+          <br>
+          <input type="text" name="modelo" placeholder="Modelo" id="modelo">
+          <br>
+          <input type="number" name="preco" placeholder="Preco" id="preco">
+          <br>
+          <input type="number" name="km" placeholder="Quilometros" id="km">
+          <br>
+          <input type="number" name="ano" placeholder="Ano" id="ano" >
+          <br>
+    
+          <input type="submit" value="Submit" onclick="calcular()">
+    
+        </div>
+        <div class="valorFinal">
+          <div class="col1">
+            <h1>Mau Estado</h1>
+            <div><h2 id="mau">0</h2></div>
+          </div>
+          <div class="col2">
+            <h1>Bom Estado</h1>
+            <div><h2 id="bom">0</h2></div>
+          </div>
+          <div class="col3">
+            <h1>Muito Bom Estado</h1>
+            <div><h2 id="mbom">0</h2></div>
+          </div>
+        </div>
+    
+      </section>
+</body>
+</html>
